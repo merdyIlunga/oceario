@@ -1,0 +1,212 @@
+@font-face {
+    font-family: arya;
+    src: url(../fonts/Arya-Regular.ttf);
+}
+@font-face {
+    font-family: anek_gujarati;
+    src: url(../fonts/AnekGujarati-VariableFont_wdth\,wght.ttf);
+}
+body
+{
+color: black ;
+font-family: arya;
+}
+.text_div_bas_droite, .element_expo_avenir p, .txt_activite_a_venir_gauche, .div_text_planifier_une_visite_droite p, .text_sous_oceario_logo, .horaire h2, .information h2, .contact h2
+{
+    font-family: anek_gujarati;
+    
+}
+.horaire h2, .information h2, .contact h2
+{
+    text-decoration: underline;
+}
+:root{
+    --bleufonce:#0F1833;
+    --whitelorem:#FFFFFF;
+    --bleuciel:#A2E1EC;
+    --bleuciel_clair:#ABC8DE;
+    --noirheader_footer:#000000;
+    --bleuclair_header:#ABC8DE;
+}
+.header_accueil
+{
+    background-image: url(../images/image_accueil_bureau/image-fond-marin-page-accueil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--noirheader_footer);
+    background-color: var(--bleuclair_header);
+}
+.header_billeterie
+{
+    background-image: url(../images/image_billetteries_bureau/image\ fond\ marin\ page\ billetteries.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--noirheader_footer);
+   /* background-color: var(--bleuclair_header);
+       background-color: linear-gradient(to bottom 90deg,var(--bleufonce) 50%,var(--bleuciel) 50%, );
+           background-color: linear-gradient(90deg,
+        var(--bleufonce) 50%,
+        var(--bleufonce) 50%,
+        var(--bleuciel) 50%,
+        var(--bleuciel) 100%,
+
+    ); */
+}
+.menu1 a, .horaire a, .information a, .contact a
+{
+color: var(--noirheader_footer);
+}
+.div_haut
+{
+    background-color: var(--bleufonce);
+    
+}
+.ul_haut a
+{
+    color: rgba(255, 255, 255, 0.8);
+}
+.media_div_bas_gauche
+{
+    background-color:var(--bleuciel)
+}
+nav
+{
+    background: rgba(171, 200, 222, 0.6);
+    height: 100%;
+}
+.animate__animated, .text_div_bas_droite
+{
+    color:var(--whitelorem);
+}
+.menu_item
+{
+    font-family: arya;
+    color: var(--noirheader_footer);
+}
+.titre_div_bas_droit
+{
+    max-width: 498px;
+}
+.expo_avenir
+{
+    background-color: var(--bleuclair_header);
+    background-image: url(../images/image_accueil_bureau/algues-exposition-a-venir.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.chiffre
+{
+    color: var(--whitelorem);
+}
+.btn_en_savoir_plus, .btn_suivant
+{
+    background-color: var(--bleufonce);
+    color: var(--whitelorem);
+}
+.activite_a_venir
+{
+    background-color: var(--bleufonce);
+}
+.activite_a_venir_gauche_background
+{
+    background-image: url(../images/image_accueil_bureau/cercles.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.titre_activite_a_venir_gauche ,.txt_activite_a_venir_gauche
+{
+    color: var(--whitelorem);
+}
+.sous_titre_activite_a_venir_gauche
+{
+    color: var(--whitelorem);
+}
+.btn_activite_a_venir
+{
+    background-color: var(--bleuciel);
+}
+.planifier_une_visite_gauche
+{
+    background-image: url(../images/image_accueil_bureau/famille-planifier\ une-visite.jpg);
+    
+}
+.planifier_une_visite_droite
+{
+background-color: var(--bleuciel);
+}
+.titre_planifier_une_visite_droite
+{
+  color: var(--whitelorem);  
+}
+.btn_planifier_une_visite_droite
+{
+    background-color: var(--bleufonce);
+    color: var(--whitelorem);
+}
+.oceario_haut_gauche
+{
+    background-image:url(../images/image_accueil_bureau/petite-fille-banque-images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.oceario_haut_droit
+{
+    background-image:url(../images/image_accueil_bureau/plusieurs-aquariums-banque-images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.oceario_haut_droit_lorem_ipsum
+{
+    background-color: var(--bleuclair_header);
+}
+.oceario_bas_gauche
+{
+    background-image:url(../images/image_accueil_bureau/personne-aquarium-banque-images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.oceario_bas_gauche_lorem_ipsum
+{
+background-color: var(--bleuciel);
+}
+.oceario_bas_droit
+{
+    background-image:url(../images/image_accueil_bureau/jeune-enfant-banque-images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer_haut
+{
+    background-color:var(--bleuciel)
+}
+
+@media only screen and (max-width:1024px)
+{
+.activite_a_venir_gauche_background 
+{        
+        background-position-x: 500px;
+}
+.div_planifier_une_visite_gauche h1 {
+    color: var(--whitelorem);
+}
+#menu_toggle:checked ~ .menu {
+    background-color: var(--bleuciel);
+}
+}
+@media only screen and (max-width: 760px)
+{
+.activite_a_venir_gauche_background 
+{        
+    background-position-x: 900px;
+}
+#menu_toggle:checked ~ .menu {
+    background-color: var(--bleuciel);
+}
+.une_date
+{
+    background: var(--bleuciel_clair);
+}
+}

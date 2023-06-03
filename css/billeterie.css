@@ -1,0 +1,106 @@
+.reservation_billet
+{
+    display: flex;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+}
+.calendrier
+{
+    width: 50%;
+    height: 100%;
+    /*background-color: rgba(15,27,51,0.9);*/
+    align-items: center;
+    color: #0F1B33E5 90%;
+    background-image: url(../images/image_billetteries_bureau/familles-billetteries.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.une_date
+{
+    margin-top: 13%;
+    margin-left: 33%;
+    width: 28%;
+    height: 25px;
+    border-radius: 5px;
+}
+.formulaire_reserver_billet
+{
+    display: block;
+    width: 50%;
+    flex-direction: column;
+    background-image: url(../images/image_billetteries_bureau/4931029\ 1.png);
+    background-size: contain;
+}
+.titre_reserver_billet
+{
+    text-align: center;
+}
+.element_formulaire
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.date, .heure, .nombre_de_personne
+{
+    border-radius: 5px;
+    width: 60%;
+    height: 23px;
+}
+.btn_suivant
+{
+    border-radius: 5px;
+    width: 30%;
+    height: 23px;
+    margin-left: 32%;
+}
+.formulaire_reserver_billet2
+{
+    width: 50%;
+    display: none;
+    flex-direction: column;
+    background-image: url(/images/image_billetteries_bureau/4931029\ 1.png);
+    background-size: contain;
+    height: 100%;
+}
+.element_formulaire2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.carte_expiration, .numero_cvv
+{
+    gap: 25px;
+}
+.carte_expiration
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+.numero_cvv
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+.courriel, .methode_paiement
+{
+    width: 60%;
+    height: 25px;
+    border-color: white;
+    border-radius: 5px;
+}
+.titulaire_carte, .date_expiration, .numero_carte, .cvv 
+{
+    width: 29%;
+    height: 25px;
+    border: none;
+    border-bottom:2px solid black ;
+}

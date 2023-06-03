@@ -1,0 +1,197 @@
+body
+{
+    height: 100%;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 947px;
+}
+.div_haut
+{
+    height: 8.75%;
+}
+.ul_haut
+{
+    display: flex;  
+    justify-content: flex-end;
+    gap: 1px 30px;
+    margin-right: 8.07%;
+}
+.premier_nav
+{
+    min-height: 18.2%;
+}
+.menu1
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 18.2%;
+}
+li
+{
+    list-style: none;
+}
+a, .horaire a, .information a, .contact a
+{
+text-decoration: none;
+}
+.menu_hamburger_accordeon
+{
+    display: none;
+}
+.div_bas
+{
+    display: flex;
+    height: 73.73%;
+}
+.div_bas_gauche
+{
+    min-width: 4.9%;
+}
+.media_div_bas_gauche
+{
+    min-width: 100%;
+    margin-top: 243px;
+    border-radius: 0 26px 26px 0;
+}
+.ul_div_bas_gauche
+{
+    width: 100%;
+    margin-left: -25%;
+}
+.image_media
+{  
+    margin-top: 15px;
+}
+.div_bas_droite
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95.1%;
+}
+.animate__animated
+{
+    text-align: center;
+    margin-top: 205px;
+    margin-bottom: 35px;
+    font-size: 3.75rem;
+}
+.text_div_bas_droite
+{
+    width: 35.37%;
+    text-align: center;
+}
+footer
+{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.footer_haut
+{
+    display: flex;
+    /*max-height: 693px;*/
+}
+.footer_haut_gauche
+{
+    display: flex;
+    flex-direction: column;
+    width: 32.70%;
+}
+.footer_haut_gauche_oceario
+{
+    margin-left: 31.52%;
+    margin-top: 14.28%;
+}
+.div_sous_oceario_logo p
+{
+    margin-left: 26.56%;
+    margin-bottom: 9.37%;
+}
+.footer_haut_droit
+{
+    display: flex;
+    width: 67.30%;
+    margin-top: 4.28%;
+    justify-content: space-evenly;
+}
+.adresse img, .telephone img, .message img
+{
+    margin-right: 2.02%;
+}
+.footer_bas
+{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width:1024px)
+{
+.footer_haut_droit 
+{
+    display: flex;
+    width: 67.30%;
+    flex-wrap: wrap;
+    margin-top: 4.28%;
+
+} 
+.contact
+{
+    margin-bottom: 9.5%;
+}   
+}
+@media only screen and (max-width: 760px)
+{
+.ul_haut
+{
+    display: flex;  
+    justify-content: space-evenly;
+    gap: 1px 30px;
+    margin-right:0;
+}   
+.footer_haut
+{
+flex-direction: column;
+} 
+.footer_haut_gauche
+{
+    width: 100%;
+    align-items:  center;
+}
+.footer_haut_gauche_oceario
+{
+    margin-left: 0%;
+    margin-top: 14.28%;
+    
+}
+.footer_haut_droit
+{
+    width: 100%;
+    flex-direction: column;
+    margin-top: 4.28%;
+    align-items: center;
+}
+.div_sous_oceario_logo
+{
+    display: none;
+}
+.horaire, .information, .contact
+{
+    width: 20%;
+
+}
+.horaire a, .information a, .contact a
+{
+    max-width: 80%;
+}
+}
+
+
+

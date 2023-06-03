@@ -1,0 +1,470 @@
+main{
+    z-index: y;
+}
+.expo_avenir
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 1272px;
+}
+.element_expo_avenir
+{
+    display: flex;
+    flex-direction: row;
+}
+.element_expo_avenir_gauche, .element_expo_avenir_milieu, .element_expo_avenir_droite
+{
+    display: flex;
+    flex-direction: column;
+    width: 17.58%;
+    align-items: center;
+}
+.div_element_expo_avenir_gauche, .div_element_expo_avenir_milieu, .div_element_expo_avenir_droite
+{
+    height: 14.6%;
+    margin-top: 5.7%;
+    margin-top: 5.7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.element_expo_avenir_milieu
+{
+margin-left: 6.56%;
+margin-right: 6.56%;
+}
+.element_expo_avenir_gauche
+{
+    margin-left: 14.2%;
+}
+.txt_expo_avenir,.grand_titre_expo_avenir
+{
+    text-align: center;
+}
+.chiffre
+{
+    margin-left: 70%;
+    font-size: 150px;
+    position: relative;
+    z-index: 2;
+    margin-top: -190px;
+}
+.element_expo_avenir_gauche ,.element_expo_avenir_milieu, .element_expo_avenir_droite
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 58.46%;
+width: 19.38%;
+margin-bottom: 10.05%;
+}
+.element_expo_avenir_gauche img, .element_expo_avenir_milieu img, .element_expo_avenir_droite img
+{
+max-width: 100%;
+max-height: 511px;
+margin-top: 50px;
+}
+.btn_en_savoir_plus
+{
+border-radius: 4px;
+width: 46.28%;
+height: 35px;
+}
+.activite_a_venir
+{
+display: flex;
+justify-content: space-around;
+max-height: 1075px;
+}
+.activite_a_venir_gauche
+{
+display: flex;
+width: 43.38%;
+}
+.activite_a_venir_gauche_background
+{
+ width: 72.67%;
+ height: 63.75%;   
+ margin-top: 16.83%;
+ margin-bottom: 19.16%;
+}
+.activite_a_venir_gauche_contenu
+{
+    width: 94.6%;
+    margin-left: 26.75%;
+}
+.titre_activite_a_venir_gauche
+{
+    font-size: 2.5rem;
+}
+.txt_activite_a_venir_gauche
+{
+    font-size: 0.938rem;
+}
+.btn_activite_a_venir
+{
+    border-radius: 10px;
+    width: 43.28%;
+    height: 50px;
+}
+.activite_a_venir_droite
+{
+    max-width: 56.62%;
+}
+.activite_a_venir_droite_slider
+{
+    margin-top: 12.04%;
+    margin-bottom:21.86% ;
+    margin-left: 11.6%;
+    margin-right: 15.02%;
+    width: 73.38%;
+}
+.activite_a_venir_droite_slider_img
+{
+    height: 64.1%;
+    width: 73.38%;
+}
+.planifier_une_visite
+{
+display: flex;
+max-height: 821px;
+}
+.planifier_une_visite_gauche
+{
+width: 50%;
+}
+.div_planifier_une_visite_gauche
+{
+    min-height: 100%;
+    width: 59.97%;
+    margin-left: 67.79%;
+    margin-top: 11.19%;
+}
+.div_planifier_une_visite_gauche h1
+{
+position: absolute;
+font-size: 4.1vw;
+margin-left: 3.2%;
+}
+.planifier_une_visite_droite
+{
+width: 50%;
+display: flex;
+flex-direction: column;
+min-height: 821px;
+}
+.titre_planifier_une_visite_droite
+{
+    position: absolute;
+    font-size: 4.1vw;
+    margin-left: -9%;
+    margin-top: 12.5%;
+}
+.div_text_planifier_une_visite_droite 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32.15%;
+    margin-top: 50.54%;
+}
+.div_text_planifier_une_visite_droite p
+{
+    max-width: 67.89%;
+}
+.div_text_planifier_une_visite_droite div {
+    width: 67.89%;
+    margin-top: 9%;
+}
+.oceario
+{
+height: 1200px;
+display: flex;
+flex-direction: column;
+}
+.oceario_haut
+{
+    height: 51.39%;
+    display: flex;
+    width: auto;
+}
+.oceario_haut_gauche, .oceario_bas_gauche
+{
+width: 49.53%;
+
+}
+.oceario_haut_gauche
+{
+    margin-bottom: 7.3%;
+}
+.oceario_bas_gauche
+{
+    padding-top: 0.77%;
+    margin-top: -7%;
+    margin-bottom: -0.77%;
+}
+.oceario_bas_gauche_lorem_ipsum
+{
+width: 54.21%;
+height: 16.57%;
+margin-right: 45.79%;
+margin-top: 14.34%;
+border-radius: 0 115.5px 115.5px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.oceario_bas_droit
+{
+    margin-top: 0.3%;
+    margin-bottom: -0.77%;
+}
+.oceario_haut_droit, .oceario_bas_droit
+{
+width: 50%;
+margin-left: 0.45%;
+}
+.oceario_haut_droit_lorem_ipsum
+{
+width: 51.09%;
+height: 20%;
+margin-left: 48.91%;
+margin-top: 17.44%;
+border-radius: 115.5px 0 0 115.5px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.oceario_haut_droit_lorem_ipsum p, .oceario_bas_gauche_lorem_ipsum p
+{
+font-size: 1.875rem;
+}
+.oceario_bas
+{
+height: 47.83%;
+display: flex;
+width: auto;
+}
+
+@media only screen and (max-width:1024px)
+{
+.expo_avenir
+{
+    min-height: 1063px;
+}
+.element_expo_avenir
+{
+justify-content: center;
+align-items: center;
+gap: 12%;
+}
+.element_expo_avenir_gauche ,.element_expo_avenir_milieu, .element_expo_avenir_droite
+{
+margin-left: 0px;
+margin-right: 0px;
+width: 29.4%;
+}
+.element_expo_avenir_gauche img, .element_expo_avenir_milieu img, .element_expo_avenir_droite img
+{
+max-width: 80%;
+max-height: 422px;
+margin-top: 50px;
+}
+.element_expo_avenir_milieu
+{
+display: none;
+}
+.activite_a_venir
+{
+display: flex;
+flex-direction: column-reverse;
+max-height: 1469px;
+}
+.activite_a_venir_gauche
+{
+    width: 100%;
+}
+.activite_a_venir_gauche_background
+{
+    width: 100%;
+    height: 63.75%;   
+    margin-top: 12.83%;
+    margin-bottom: 19.16%;
+}
+.activite_a_venir_gauche_contenu
+{
+width: 100%;
+margin-left: 0%;
+margin-right: 0%;
+margin-top: 0px;
+}
+.txt_activite_a_venir_gauche 
+{
+    margin-right: 24.6%;
+    width: 44.89%;
+}
+.activite_a_venir_droite
+{
+    max-width: 100%;
+    max-height: 610px;
+}
+.activite_a_venir_droite_slider
+{
+    margin-top: 12.04%;
+    margin-bottom:21.86% ;
+    margin-left: 13.1%;
+    margin-right: 13.1%;
+}
+.titre_activite_a_venir_gauche,.sous_titre_activite_a_venir_gauche, .txt_activite_a_venir_gauche, .btn_activite_a_venir
+{
+    margin-left: 11.8%;
+}
+.txt_activite_a_venir_gauche
+{
+    margin-right: 24.6%;
+}
+.btn_activite_a_venir
+{
+    width: 21.97%;
+    height: 45px;
+}
+.planifier_une_visite
+{
+display: flex;
+flex-direction: column;
+height: 822px;   
+}
+.planifier_une_visite_gauche
+{
+width: 100%;
+min-height: 50%;
+}
+.div_planifier_une_visite_gauche
+{
+    margin-top: 0;
+    margin-left: 0;
+    display: flex;
+    align-items: flex-end;
+}
+.div_planifier_une_visite_gauche h1 {
+    margin-bottom: -1.5%;
+    margin-left: 10%;
+    margin-top: 0px;
+    font-size: 8.1vw;
+}
+.planifier_une_visite_droite
+{
+width: 100%;
+display: flex;
+flex-direction: column;
+min-height: 50%;
+}
+.titre_planifier_une_visite_droite {
+    position: absolute;
+    font-size: 8.1vw;
+    margin-left: 15.5%;
+    margin-top: -4%;
+}
+.div_text_planifier_une_visite_droite 
+{   min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 13%;
+}
+.div_text_planifier_une_visite_droite div {
+    width: 67.89%;
+    margin-top: 3%;
+}
+.btn_planifier_une_visite_droite
+{
+    width: 34.88%;
+    height: 53px;
+    border-radius: 10px;
+}
+}
+@media only screen and (max-width: 760px)
+{
+.element_expo_avenir_milieu, .element_expo_avenir_droite
+{
+display: none;
+}
+.element_expo_avenir_gauche
+{
+    width: 60%;
+}
+.activite_a_venir_gauche_contenu
+{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.div_planifier_une_visite_gauche h1
+{
+    margin-bottom: -3%;
+    font-size: 11.1vw; 
+}
+.titre_planifier_une_visite_droite
+{
+    font-size: 11.1vw; 
+    margin-top: -5%;
+}
+.titre_activite_a_venir_gauche,.sous_titre_activite_a_venir_gauche, .txt_activite_a_venir_gauche
+{
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 80%;
+}
+.btn_activite_a_venir {
+    margin-right: 70%;
+}
+.oceario {
+    height: 1402px;
+    display: flex;
+    flex-direction: column;
+}
+.oceario_haut {
+    height: 710px;
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+}
+.oceario_haut_gauche{
+    width: 100%;
+    height: 323px;
+    margin-bottom: 5px;
+}
+.oceario_haut_droit{
+    width: 100%;
+    margin-left: 0%;
+    height: 378px;
+    margin-bottom: 5px;
+}
+.oceario_bas {
+    height: 710px;
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+}
+.oceario_bas_gauche {
+    width: 100%;
+    height: 323px;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 5px;
+}
+.oceario_bas_droit {
+    width: 100%;
+    margin-left: 0%;
+    height: 378px;
+    margin-bottom: 0%;
+}
+.oceario_haut_droit, .oceario_bas_droit {
+     margin-left: 0%; 
+}
+}

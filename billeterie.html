@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/billeterie.css">
+    <link rel="stylesheet" href="css/color_font.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/menu.css" />
+    <script type="text/javascript" src="js/Script_formulaire.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header_billeterie">
+        <div class="div_haut">
+            <ul class="ul_haut">
+                <li><a href="#zone_horaire">Tarif &nbsp;et horaires</a></li>
+                <li><a href="#zone_contact">Contact</a></li>
+                <li><a href="#">Billeterie</a></li>
+                <li><a href="#">FR/EN</a></li>
+            </ul>
+        </div>
+        <nav class="premier_nav">
+            <ul class="menu1">
+                <li><a href="#">Expositions</a></li>
+                <li class="has-children">
+                    <a href="#">Activités
+                    <ul class="sous-menu">
+                        <li><a href="#">Aquarium + Bassin tactile</a></li>
+                        <li><a href="#">Musée</a></li>
+                        <li><a href="#">Excursion</a></li>
+                        <li><a href="#">Visite virtuelle</a></li>
+                        <li><a href="#">Restaurants</a></li>
+                    </ul>
+                    </a>
+                </li>              
+                <li><a href="#">Les spécimens</a></li>
+                <li><img class="image_accuel_bureau" src="images/image_accueil_bureau/logo-bureau.png"></li>
+                <li class="has-children"><a href="#">Planifier une visite
+                    <ul class="sous-menu">
+                        <li><a href="#">Famille</a></li>
+                        <li><a href="#">Ecoles</a></li>
+                    </ul>
+                </a></li>
+                <li><a href="#">Renseignements</a></li>
+                <li><a href="#">Galerie photo</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu_hamburger_accordeon">
+            <input id="menu_toggle" type="checkbox"/>
+            <label class="menu_btn" for="menu_toggle">
+                <img src="/images/image_accueil_tablette/menu.png">
+            </label>
+    
+            <ul class="menu">
+                <li><img class="image_accuel_bureau" src="images/image_accueil_bureau/logo-bureau.png"></li>
+                <li><a class="menu_item" href="#zone_expo_avenir">Expositions</a></li>
+                <li>
+                    <a class="menu_item" href="#zone_activite_a_venir">Activités
+                        <ul class="sous-menu">
+                            <li><a href="#">Aquarium + Bassin tactile</a></li>
+                            <li><a href="#">Musée</a></li>
+                            <li><a href="#">Excursion</a></li>
+                            <li><a href="#">Visite virtuelle</a></li>
+                            <li><a href="#">Restaurants</a></li>
+                        </ul>
+                    </a>
+                </li>              
+                <li><a class="menu_item" href="#">Les spécimens</a></li>
+                <li><a class="menu_item" href="#zone_planifier_une_visite">Planifier une visite
+                    <ul class="sous-menu">
+                        <li><a href="#">Famille</a></li>
+                        <li><a href="#">Ecoles</a></li>
+                    </ul>
+                </a></li>
+                <li><a class="menu_item" href="#">Renseignements</a></li>
+                <li><a  class="menu_item" href="#">Galerie photo</a></li>
+            </ul>
+        </div>
+
+        <div class="div_bas">
+            <div class="div_bas_gauche">
+                <div class="media_div_bas_gauche">
+                    <ul class="ul_div_bas_gauche">
+                        <li><a href="#"><img class="image_media" src="images/image_accueil_bureau/facebook.png"></a></li>
+                        <li><a href="#"><img class="image_media" src="images/image_accueil_bureau/instagram.png"></a></li>
+                        <li><a href="#"><img class="image_media" src="images/image_accueil_bureau/youtube.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="div_bas_droite">
+                    <h1 class="animate__animated animate__backInDown" >
+                        BILLETERIE
+                    </h1>
+                    <p class="text_div_bas_droite">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, molestiae, commodi officia rem voluptas harum accusantium quia deserunt tempore quidem ipsa qui voluptate adipisci ducimus eius veritatis modi pariatur corrupti.
+                    </p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="reservation_billet">
+            <div class="calendrier">      
+                <input type="date" class="une_date">     
+            </div>
+           
+            <div id="formulaire_billet1" class="formulaire_reserver_billet">
+                <h1 class="titre_reserver_billet">RÉSERVEZ VOS BILLETS ICI</h1>
+                <div class="element_formulaire">
+                    <input type="text" name="Date" class="date" placeholder="DATE">
+                
+                    <input type="datetime" name="Heure" class="heure" placeholder="HEURE">
+
+                    <input type="number" name="Nombre_de_personne" class="nombre_de_personne" placeholder="NOMBRE DE PERSONNE"> 
+                    
+                    <button class="btn_suivant" onclick="changer_formulaire()">SUIVANT</button>
+                </div>
+            </div>
+
+           <div id="formulaire_billet2" class="formulaire_reserver_billet2">
+                <h1 class="titre_reserver_billet">RÉSERVEZ VOS BILLETS ICI</h1>
+                <div class="element_formulaire2">
+                    <input type="email" class="courriel" placeholder="COURRIEL">
+                    <input type="text" class="methode_paiement" placeholder="MÉTHODE DE PAIEMENT">
+
+                    <div class="carte_expiration">
+                        <input type="text" class="titulaire_carte" placeholder="titulaire de la carte">
+                        <input type="datetime" class="date_expiration" placeholder="Date expiration">
+                    </div>
+                
+                    <div class="numero_cvv">
+                        <input type="text" class="numero_carte" placeholder="numéro :">
+                        <input type="text" class="cvv" placeholder="cvv:">
+                   </div>  
+
+                   <button class="btn_suivant">SUIVANT</button>
+                </div>
+            </div>
+           
+           
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_haut">
+            <div class="footer_haut_gauche">
+                
+                <div class="footer_haut_gauche_oceario">
+                    <img class="oceario_logo" src="images/image_accueil_bureau/logo-bureau.png">
+                </div>
+                <div class="div_sous_oceario_logo">
+                    <p class="text_sous_oceario_logo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum natus enim esse. Ipsum illum quasi voluptatum consequuntur ipsa nisi, blanditiis in, rerum saepe provident ad. Consectetur fugiat voluptatibus sit hic!
+                    </p>
+                </div>
+                
+            </div>
+            <div class="footer_haut_droit">
+                <div class="horaire" id="zone_horaire">
+                    <h2>HORAIRE</h2>
+                   
+                    <a href="#"><li>Lundi</li></a>
+                    <a href="#"><li>Mardi</li></a>
+                    <a href="#"><li>Mercredi</li></a>
+                    <a href="#"><li>Jeudi</li></a>
+                    <a href="#"><li>Vendredi</li></a>
+                    <a href="#"><li>Samedi</li></a>
+                    <a href="#"><li>Dimanche</li></a>           
+                </div>
+                <div class="information">
+                    <h2>INFORMATION</h2>
+                    
+                    <a href="#"><li>Expositions</li></a>
+                    <a href="#"><li>Activités</li></a>
+                    <a href="#"><li>Les Specimens</li></a>
+                    <a href="#"><li>Planifier une visite</li></a>
+                    <a href="#"><li>Renseignements</li></a>
+                    <a href="#"><li>Galerie photo</li></a>           
+                </div>
+                <div class="contact" id="zone_contact">
+                    <h2>CONTACT</h2>
+                    
+                    <div class="adresse"><a href="#"><li><img src="images/image_accueil_bureau/Vector_localisation.png">80 Rue Mackay, RIvière-du-loup,QC G5R 5Z8</li></a></div>
+                    <div class="telephone"><a href="#"><li><img src="images/image_accueil_bureau/Vector_telephone.png">(418)867-8796</li></a></div>
+                    <div class="message"><a href="#"><li><img src="images/image_accueil_bureau/Vector_message.png">ocearioexplo@gmail.com</li></a></div>           
+                </div>
+            </div>
+        </div>
+        <div class="footer_bas">
+            <p>&copyoceario, 2022.graphiste:maélie joly</p>
+        </div>
+    </footer>
+</body>
+</html>
